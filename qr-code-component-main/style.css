@@ -31,6 +31,14 @@ img {
     border-radius: 12px;
     margin-bottom: 1em;
 }
+.container_wrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 .container {
     width: 80%;
     margin: 3em auto;
