@@ -80,3 +80,7 @@ width: 34%;
 .avatar .avatar__text {
     font-weight: var(--ft-bold);
 }
+.title:hover{
+ color: var(--color-yellow);
+ cursor: pointer;
+}
