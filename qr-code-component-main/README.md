@@ -22,7 +22,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - Solution URL: [here](https://github.com/William-nyarash/frontend-mentors.git)
 under the `qr-code-component-main`  folder
-- visit : [live site](https://your-live-site-url.com)
+- visit : [live site](https://frontend-mentors-gmlr.onrender.com/)
 
 ## My process
  I began by creating a container class for the card.
