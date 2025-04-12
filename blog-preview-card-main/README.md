@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution: [check out](https://github.com/William-nyarash/frontend-mentors.git)
-- Live Site: [visit](https://your-live-site-url.com)
+- Live Site: [visit](https://blog-card-dz8s.onrender.com)
 
 ## My process
 after creating the card I used the dev tools (*on linux it's F12*) to enable me visualize  how the box shadow will take effect on the card. It saved me a lot of time.
