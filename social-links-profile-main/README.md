@@ -29,10 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![mobile view](./assets/images/mobile-screenshot.png)
-
-
-![desktop view](./assets/images/desktop-screenshot.png)
+![the site](screenshot.png)
 
 
 ### Links
