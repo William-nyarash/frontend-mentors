@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution](https://github.com/William-nyarash/frontend.github.io.git)
-- VIew Live : [Add live site URL here](https://william-nyarash.github.io/frontend.github.io/)
+- VIew Live : [live site](https://social-link-zlri.onrender.com)
 
 ## My process
 
