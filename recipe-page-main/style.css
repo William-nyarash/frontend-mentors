@@ -13,7 +13,114 @@
     --font-weight-accent:400;
     --font-family-p: "Outfit";
     --font-weight-p-bold:700;
-    --font-weighr-p-medium:600;
+    --font-weight-p-medium:600;
     --font-weight-p-small:400;
 
 }
+* , *::after, *::before {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: var(--font-size-p);
+}
+
+img {
+ max-width: 100%;
+}
+.container {
+    width: 89%;
+    max-width: 750px;
+    margin: 0  auto;
+    color: var(--color-stone-600);
+}
+.image {
+    margin-bottom: 2em;
+}
+.image img {
+    max-width: 100%;
+    object-fit: contain;
+  }
+
+ol[type="1"] li::marker,
+ul li::marker {
+    color: var(--color-rose-800);
+}
+ul b,
+ol b {
+    color: var(--color-stone-600);
+    
+}
+table {
+    width: 100%;
+    margin-bottom: 4em;
+}
+th {
+padding-left: 2em;
+padding-block: .6em;
+text-align: left;
+}
+th:nth-child(2){
+    color: var(--color-rose-800);
+}
+table,
+tbody,
+th,
+tr {
+    border-collapse: collapse;
+    border-bottom: 0.1px solid var(--color-stone-600);
+}
+hr {
+    margin-block: 0.9em;
+}
+.title .recipe-name {
+    margin-bottom: .9em;
+    color: var(--color-stone-900);
+    font-weight: var(--font-weight-accent);
+    font-family: var(--font-family-accent),sans-serif;
+    font-size: 2rem;
+    line-height: 2rem;
+    
+}
+.title .desc{
+    color: var(--color-stone-600);
+}
+.prep h3, .ingredients .ingredients_title,
+.nutrition .nutrition-title,
+.cooking_instruction .instructions-title {
+    color: var(--color-brown-800);
+    margin-bottom: 0.6em;
+    font-weight: var(--font-weight-p-small);
+    font-family: var(--font-family-accent), serif;
+}
+
+.ingredients_title,
+.nutrition-title,
+.ingredients_title,
+.recipe-name{
+    font-family: var(--font-family-accent), serif;
+}
+.title .desc,
+.prep,
+.ingredients,
+.cooking_instruction {
+    margin-bottom: 1.2em;
+}
+.prep {
+    padding: 0.9em;
+    border-radius:12px;
+    background: var(--color-rose-50);
+}
+.prep h3 {
+    font-size: var(--font-weight-p-bold);
+    font-weight: var(--font-weight-p-small);
+    font-family: var(--font-family-p), sans-serif;
+}
+ @media (min-width: 768px) {
+    .image {
+        width: 750px;
+        margin:2em  auto ;
+        border-radius: 29px;
+        overflow: hidden;
+    }
+ }

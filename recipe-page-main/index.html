@@ -5,9 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Recipe page</title>
-
+ <link rel="stylesheet" href="style.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -15,8 +17,8 @@
   </style>
 </head>
 <body>
+  <main>
 <div class="main">
-  
   <div class="image">
     <img src="./assets/images/image-omelette.jpeg" alt="an omelette">
   </div>
@@ -43,7 +45,7 @@
         </ul>
       </div>
       <div class="ingredients">
-        <h2 class="ingredients_title">Ingredients</h2>
+        <h2 class="ingredients_title font">Ingredients</h2>
         <ul>
           <li class="ing-item">
             2-3 large eggs
@@ -60,9 +62,10 @@
           <li class="ing-item">Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
         </ul>
       </div>
+      <hr>
       <div class="cooking_instruction">
-        <h2 class="instructions-title">Instructions</h2>
-        <ol type="1">
+        <h2 class="instructions-title font">Instructions</h2>
+        <ol type="1" >
           <li><b>Beat the eggs:</b>In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
             You can add a tablespoon of water or milk for a fluffier texture.</li>
           <li><b>Heat the pan:</b>Place a non-stick frying pan over medium heat and add butter or oil.</li>
@@ -75,8 +78,9 @@
           <li><b>Enjoy:</b>Serve hot, with additional salt and pepper if needed.</li>
         </ol>
       </div>
+      <hr>
       <div class="nutrition">
-        <h2 class="nutrition-title">Nutrition</h2>
+        <h2 class="nutrition-title font">Nutrition</h2>
         <p class="nutri-desc">  
           The table below shows nutritional values per serving without the additional fillings.</p>
           <table>
@@ -98,11 +102,12 @@
           </table>
       </div>
     </div>
+</div>
   </section>
     <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
+      Challenge by <a href="https://www.frontendmentor.io/profile/william-nyarash" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">waren</a>.
     </div>
-</div>
+</main>
 </body>
 </html>
