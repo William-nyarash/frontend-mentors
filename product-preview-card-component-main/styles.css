@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
 :root {
     --color-green-500:hsl(158, 36%, 37%);
     --color-green-700:hsl(158, 42%, 18%);
@@ -7,6 +8,8 @@
      --color-neutral-white:hsl(0, 0%, 100%);
 
      --font-paragraph:14px;
+     --monserrat: "Montserrat", sans-serif;
+     --fraunces: "Fraunces", serif;
 }
 *::after, 
 *::before{
@@ -33,13 +36,12 @@ main {
 .image {
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
-    overflow: hidden;
-}
-img{
+    background-position: center;
+    background-size: cover;
     width: 100%;
-    object-fit: contain;
+    height: 200px;
+    background-image: url(./images/image-product-mobile.jpg);
 }
-
 .perfume_text {
     padding: 1.2em;    
 }
@@ -51,6 +53,15 @@ h2 {
     margin: 0;
     color: var(--color-neutral-black);
 }
+h2 , .latest  {
+ font-family: var(--fraunces);
+}
+.light__text ,
+p,
+.old,
+button {
+    font-family: var(--monserrat);
+}
  p{
     margin: 0;
     font-size: var(--font-paragraph);
@@ -58,6 +69,10 @@ h2 {
  .light__text {
     letter-spacing: 0.3rem;
   text-transform: uppercase;
+}
+.imagis {
+    width: 200px;
+    background-image: url(./images/image-product-mobile.jpg);
 }
 .old , 
 p,
@@ -105,4 +120,39 @@ button {
  width: 100%;
  font-weight: 600;
  border: none;
+}
+button:hover {
+    background-color: hsl(158, 45%, 20%);
+}
+
+button:active {
+    background-color: hsl(158, 45%, 20%);
+}
+
+
+@media (min-width: 39rem) {
+    body {
+        height: 100vh;
+        display: flex;
+        gap: 9rem;
+        padding-top: 2em;
+    }
+    main {
+        max-width: 600px;
+        height: 550px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .image {
+        border-bottom-left-radius: 12px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 0;    
+        height: 100%; 
+        width: 100%;
+        background-image: url(./images/image-product-desktop.jpg);
+    }
+    .perfume_text{
+        width: 100%;
+    }
 }
