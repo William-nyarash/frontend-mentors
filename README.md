@@ -6,3 +6,4 @@ to view the
  - **blog oreview card**  [visit](./blog-preview-card-main/)
  - **social link profile** [visit](./social-links-profile-main)
  - **recipe page** [visit](./recipe-page-main/)
+- **poduct preview** [visit](./product-preview-card-component-main/)
