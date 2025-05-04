@@ -20,7 +20,7 @@ creating a responsive product preview card
 ### Links
 
 -  Solution URL: [here](https://github.com/William-nyarash/frontend-mentors.git)
-- Live Site: [live on](https://your-live-site-url.com)
+- Live Site: [live on](https://product-card-su7z.onrender.com)
 
 ### Built with
 
