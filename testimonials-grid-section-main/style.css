@@ -1,0 +1,127 @@
+*,
+*::before,
+*::after {
+    box-sizing:border-box;
+    margin:0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color:  hsl(0, 0%, 81%);
+    font-size: 13px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main{
+    display: grid ;
+    gap:1.5rem;
+    width: min(95%,70rem);
+    margin-inline: auto;
+}
+
+.content-wrapper {
+    border-radius:0.4rem;
+    padding:2rem ;
+    box-shadow: 0rem 1rem 1rem 0rem hsl(224, 10%, 45%, 0.65);
+}
+
+@media (min-width: 50em) {
+    .grid-col-span-2 {
+        grid-column: span 2;
+    }
+    .main {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .content-wrapper:last-child {
+        grid-column:  4;
+        grid-row: 1 / span 2;
+    }
+} 
+.profile {
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: start;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    margin-bottom:1.2em;
+}
+.profile-image {
+    border: 3px solid transparent;
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    align-items: center;
+    overflow: hidden;
+}
+.profile .p-name {
+font-size: 0.52rem;
+ font-weight: 500;
+}
+.status {
+    font-size: 0.5rem;
+}
+.key-testimony {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    margin-bottom: .7rem;
+}
+.quoted-text {
+    font-weight: 500;
+    line-height: 1;
+}
+.profile-image,
+.profile-text,
+.key-testimony {
+    position: relative;
+    z-index: 999;
+}
+.bg-quote {
+    position: absolute;
+    top: 0;
+    right: 27px;
+    z-index: 0;
+}
+.quote {
+    background-image: url('./images/bg-pattern-quotation.svg');
+    background-position: top right 11%;
+    background-repeat: no-repeat;
+}
+.first-testimony {
+    color: hsl(0, 0%, 100%);
+    background-color:hsl(263, 55%, 52%);
+}
+.first-testimony .profile-image{
+    border: 2px solid hsl(264, 82%, 80%);
+}
+.second-testimony {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(224, 10%, 45%);
+}
+
+.third-testimony {
+    color: hsl(224, 10%, 45%);
+    background-color: hsl(214, 17%, 92%);
+}
+.fourth-testimony .profile-image {
+    border: 2px solid hsl(263, 55%, 52%);
+}
+.fourth-testimony {
+    color:hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 7%);
+}
+.fifth-testimony {
+    color: hsl(224, 10%, 45%);
+    background-color: hsl(214, 17%, 92%);
+}
